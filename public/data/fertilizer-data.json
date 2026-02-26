@@ -1,0 +1,328 @@
+{
+  "fertilizerData": [
+    {
+      "crop": "tomato",
+      "soilType": "clay",
+      "nitrogen": 120,
+      "phosphorus": 80,
+      "potassium": 100,
+      "baseQuantity": 2.5,
+      "description": "Tomatoes in clay soil require balanced nutrition with good drainage"
+    },
+    {
+      "crop": "tomato",
+      "soilType": "sandy",
+      "nitrogen": 150,
+      "phosphorus": 100,
+      "potassium": 120,
+      "baseQuantity": 3.0,
+      "description": "Sandy soils need more frequent fertilization due to leaching"
+    },
+    {
+      "crop": "tomato",
+      "soilType": "loamy",
+      "nitrogen": 100,
+      "phosphorus": 70,
+      "potassium": 90,
+      "baseQuantity": 2.2,
+      "description": "Loamy soil is ideal for tomatoes with moderate fertilizer needs"
+    },
+    {
+      "crop": "tomato",
+      "soilType": "silt",
+      "nitrogen": 110,
+      "phosphorus": 75,
+      "potassium": 95,
+      "baseQuantity": 2.3,
+      "description": "Silt soil retains nutrients well, requiring moderate fertilization"
+    },
+    {
+      "crop": "tomato",
+      "soilType": "peat",
+      "nitrogen": 80,
+      "phosphorus": 60,
+      "potassium": 80,
+      "baseQuantity": 2.0,
+      "description": "Peat soil is naturally fertile, needs less fertilizer"
+    },
+    {
+      "crop": "tomato",
+      "soilType": "chalk",
+      "nitrogen": 140,
+      "phosphorus": 90,
+      "potassium": 110,
+      "baseQuantity": 2.8,
+      "description": "Chalk soil requires more nutrients due to alkaline nature"
+    },
+    {
+      "crop": "wheat",
+      "soilType": "clay",
+      "nitrogen": 100,
+      "phosphorus": 60,
+      "potassium": 80,
+      "baseQuantity": 2.0,
+      "description": "Wheat in clay soil needs balanced NPK for good grain development"
+    },
+    {
+      "crop": "wheat",
+      "soilType": "sandy",
+      "nitrogen": 120,
+      "phosphorus": 80,
+      "potassium": 100,
+      "baseQuantity": 2.5,
+      "description": "Sandy soils require more nitrogen for wheat growth"
+    },
+    {
+      "crop": "wheat",
+      "soilType": "loamy",
+      "nitrogen": 90,
+      "phosphorus": 50,
+      "potassium": 70,
+      "baseQuantity": 1.8,
+      "description": "Loamy soil provides good conditions for wheat with moderate fertilizer"
+    },
+    {
+      "crop": "wheat",
+      "soilType": "silt",
+      "nitrogen": 95,
+      "phosphorus": 55,
+      "potassium": 75,
+      "baseQuantity": 1.9,
+      "description": "Silt soil supports wheat well with balanced nutrition"
+    },
+    {
+      "crop": "wheat",
+      "soilType": "peat",
+      "nitrogen": 70,
+      "phosphorus": 40,
+      "potassium": 60,
+      "baseQuantity": 1.5,
+      "description": "Peat soil's natural fertility reduces fertilizer needs"
+    },
+    {
+      "crop": "wheat",
+      "soilType": "chalk",
+      "nitrogen": 110,
+      "phosphorus": 70,
+      "potassium": 90,
+      "baseQuantity": 2.2,
+      "description": "Chalk soil needs additional nutrients for optimal wheat yield"
+    },
+    {
+      "crop": "rice",
+      "soilType": "clay",
+      "nitrogen": 80,
+      "phosphorus": 40,
+      "potassium": 60,
+      "baseQuantity": 1.5,
+      "description": "Rice in clay soil requires moderate nutrients with good water management"
+    },
+    {
+      "crop": "rice",
+      "soilType": "sandy",
+      "nitrogen": 100,
+      "phosphorus": 60,
+      "potassium": 80,
+      "baseQuantity": 2.0,
+      "description": "Sandy soils need more fertilizer for rice due to leaching"
+    },
+    {
+      "crop": "rice",
+      "soilType": "loamy",
+      "nitrogen": 70,
+      "phosphorus": 35,
+      "potassium": 55,
+      "baseQuantity": 1.3,
+      "description": "Loamy soil is excellent for rice with moderate fertilizer needs"
+    },
+    {
+      "crop": "rice",
+      "soilType": "silt",
+      "nitrogen": 75,
+      "phosphorus": 38,
+      "potassium": 58,
+      "baseQuantity": 1.4,
+      "description": "Silt soil provides good conditions for rice cultivation"
+    },
+    {
+      "crop": "rice",
+      "soilType": "peat",
+      "nitrogen": 60,
+      "phosphorus": 30,
+      "potassium": 50,
+      "baseQuantity": 1.2,
+      "description": "Peat soil's fertility reduces rice fertilizer requirements"
+    },
+    {
+      "crop": "rice",
+      "soilType": "chalk",
+      "nitrogen": 90,
+      "phosphorus": 50,
+      "potassium": 70,
+      "baseQuantity": 1.8,
+      "description": "Chalk soil requires more nutrients for successful rice growth"
+    },
+    {
+      "crop": "corn",
+      "soilType": "clay",
+      "nitrogen": 160,
+      "phosphorus": 90,
+      "potassium": 120,
+      "baseQuantity": 3.2,
+      "description": "Corn is a heavy feeder, especially in clay soil"
+    },
+    {
+      "crop": "corn",
+      "soilType": "sandy",
+      "nitrogen": 180,
+      "phosphorus": 110,
+      "potassium": 140,
+      "baseQuantity": 3.5,
+      "description": "Sandy soils require maximum fertilizer for corn due to leaching"
+    },
+    {
+      "crop": "corn",
+      "soilType": "loamy",
+      "nitrogen": 140,
+      "phosphorus": 80,
+      "potassium": 110,
+      "baseQuantity": 3.0,
+      "description": "Loamy soil supports corn well with high fertilizer needs"
+    },
+    {
+      "crop": "corn",
+      "soilType": "silt",
+      "nitrogen": 150,
+      "phosphorus": 85,
+      "potassium": 115,
+      "baseQuantity": 3.1,
+      "description": "Silt soil provides good nutrient retention for corn"
+    },
+    {
+      "crop": "corn",
+      "soilType": "peat",
+      "nitrogen": 120,
+      "phosphorus": 70,
+      "potassium": 100,
+      "baseQuantity": 2.8,
+      "description": "Peat soil reduces but doesn't eliminate corn's high fertilizer needs"
+    },
+    {
+      "crop": "corn",
+      "soilType": "chalk",
+      "nitrogen": 170,
+      "phosphorus": 100,
+      "potassium": 130,
+      "baseQuantity": 3.4,
+      "description": "Chalk soil requires maximum nutrients for corn production"
+    },
+    {
+      "crop": "potato",
+      "soilType": "clay",
+      "nitrogen": 130,
+      "phosphorus": 100,
+      "potassium": 160,
+      "baseQuantity": 2.8,
+      "description": "Potatoes need high potassium in clay soil for tuber development"
+    },
+    {
+      "crop": "potato",
+      "soilType": "sandy",
+      "nitrogen": 150,
+      "phosphorus": 120,
+      "potassium": 180,
+      "baseQuantity": 3.2,
+      "description": "Sandy soils require extra potassium for potato quality"
+    },
+    {
+      "crop": "potato",
+      "soilType": "loamy",
+      "nitrogen": 120,
+      "phosphorus": 90,
+      "potassium": 150,
+      "baseQuantity": 2.6,
+      "description": "Loamy soil is ideal for potatoes with balanced NPK"
+    },
+    {
+      "crop": "potato",
+      "soilType": "silt",
+      "nitrogen": 125,
+      "phosphorus": 95,
+      "potassium": 155,
+      "baseQuantity": 2.7,
+      "description": "Silt soil supports good potato growth with proper nutrition"
+    },
+    {
+      "crop": "potato",
+      "soilType": "peat",
+      "nitrogen": 110,
+      "phosphorus": 80,
+      "potassium": 140,
+      "baseQuantity": 2.4,
+      "description": "Peat soil reduces but doesn't eliminate potato fertilizer needs"
+    },
+    {
+      "crop": "potato",
+      "soilType": "chalk",
+      "nitrogen": 140,
+      "phosphorus": 110,
+      "potassium": 170,
+      "baseQuantity": 3.0,
+      "description": "Chalk soil requires additional nutrients for potato production"
+    },
+    {
+      "crop": "cotton",
+      "soilType": "clay",
+      "nitrogen": 110,
+      "phosphorus": 70,
+      "potassium": 90,
+      "baseQuantity": 2.4,
+      "description": "Cotton in clay soil needs balanced nutrition for fiber development"
+    },
+    {
+      "crop": "cotton",
+      "soilType": "sandy",
+      "nitrogen": 130,
+      "phosphorus": 90,
+      "potassium": 110,
+      "baseQuantity": 2.8,
+      "description": "Sandy soils require more fertilizer for cotton due to leaching"
+    },
+    {
+      "crop": "cotton",
+      "soilType": "loamy",
+      "nitrogen": 100,
+      "phosphorus": 60,
+      "potassium": 80,
+      "baseQuantity": 2.2,
+      "description": "Loamy soil provides good conditions for cotton with moderate fertilizer"
+    },
+    {
+      "crop": "cotton",
+      "soilType": "silt",
+      "nitrogen": 105,
+      "phosphorus": 65,
+      "potassium": 85,
+      "baseQuantity": 2.3,
+      "description": "Silt soil supports cotton well with balanced nutrition"
+    },
+    {
+      "crop": "cotton",
+      "soilType": "peat",
+      "nitrogen": 90,
+      "phosphorus": 50,
+      "potassium": 70,
+      "baseQuantity": 2.0,
+      "description": "Peat soil's natural fertility reduces cotton fertilizer needs"
+    },
+    {
+      "crop": "cotton",
+      "soilType": "chalk",
+      "nitrogen": 120,
+      "phosphorus": 80,
+      "potassium": 100,
+      "baseQuantity": 2.6,
+      "description": "Chalk soil requires additional nutrients for cotton production"
+    }
+  ]
+}

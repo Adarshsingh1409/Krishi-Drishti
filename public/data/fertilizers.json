@@ -1,0 +1,422 @@
+{
+  "fertilizerData": [
+    {
+      "crop": "tomato",
+      "soilType": "clay",
+      "nitrogen": 120,
+      "phosphorus": 80,
+      "potassium": 100,
+      "baseQuantity": 2.5,
+      "description": "Clay soil retains nutrients well but may require improved drainage for tomatoes",
+      "applicationTips": [
+        "Apply in split doses during growing season",
+        "Focus on phosphorus for root development",
+        "Monitor for nitrogen deficiency symptoms"
+      ],
+      "organicAlternatives": [
+        "Compost",
+        "Well-rotted manure",
+        "Bone meal",
+        "Wood ash"
+      ]
+    },
+    {
+      "crop": "tomato",
+      "soilType": "sandy",
+      "nitrogen": 150,
+      "phosphorus": 100,
+      "potassium": 120,
+      "baseQuantity": 3.0,
+      "description": "Sandy soil drains quickly and requires more frequent fertilization for tomatoes",
+      "applicationTips": [
+        "Apply smaller doses more frequently",
+        "Use slow-release fertilizers",
+        "Add organic matter to improve retention"
+      ],
+      "organicAlternatives": [
+        "Fish emulsion",
+        "Seaweed extract",
+        "Green sand",
+        "Rock phosphate"
+      ]
+    },
+    {
+      "crop": "tomato",
+      "soilType": "loamy",
+      "nitrogen": 100,
+      "phosphorus": 70,
+      "potassium": 90,
+      "baseQuantity": 2.2,
+      "description": "Loamy soil is ideal for tomatoes with balanced nutrient requirements",
+      "applicationTips": [
+        "Maintain balanced NPK ratio",
+        "Apply at planting and fruiting stages",
+        "Monitor plant growth for adjustments"
+      ],
+      "organicAlternatives": [
+        "Balanced compost",
+        "Alfalfa meal",
+        "Kelp meal",
+        "Greensand"
+      ]
+    },
+    {
+      "crop": "tomato",
+      "soilType": "silt",
+      "nitrogen": 110,
+      "phosphorus": 75,
+      "potassium": 95,
+      "baseQuantity": 2.3,
+      "description": "Silt soil holds moisture well but may need aeration for tomato roots",
+      "applicationTips": [
+        "Ensure good drainage to prevent root rot",
+        "Apply fertilizer when soil is workable",
+        "Watch for signs of overwatering"
+      ],
+      "organicAlternatives": [
+        "Vermicompost",
+        "Cottonseed meal",
+        "Bone meal",
+        "Sul-Po-Mag"
+      ]
+    },
+    {
+      "crop": "tomato",
+      "soilType": "peat",
+      "nitrogen": 80,
+      "phosphorus": 60,
+      "potassium": 80,
+      "baseQuantity": 2.0,
+      "description": "Peat soil is acidic and requires pH adjustment for optimal tomato growth",
+      "applicationTips": [
+        "Lime to adjust pH before planting",
+        "Use fertilizers with calcium",
+        "Monitor for magnesium deficiency"
+      ],
+      "organicAlternatives": [
+        "Dolomitic lime",
+        "Oyster shell flour",
+        "Epsom salts",
+        "Composted manure"
+      ]
+    },
+    {
+      "crop": "tomato",
+      "soilType": "chalk",
+      "nitrogen": 140,
+      "phosphorus": 90,
+      "potassium": 110,
+      "baseQuantity": 2.8,
+      "description": "Chalk soil is alkaline and may require iron and manganese supplements",
+      "applicationTips": [
+        "Use acid-forming fertilizers",
+        "Apply micronutrients as needed",
+        "Mulch to improve soil structure"
+      ],
+      "organicAlternatives": [
+        "Peat moss",
+        "Pine needles",
+        "Cottonseed meal",
+        "Iron sulfate"
+      ]
+    },
+    {
+      "crop": "wheat",
+      "soilType": "clay",
+      "nitrogen": 100,
+      "phosphorus": 60,
+      "potassium": 80,
+      "baseQuantity": 2.0,
+      "description": "Clay soil provides good nutrient retention for wheat crops",
+      "applicationTips": [
+        "Apply nitrogen at tillering stage",
+        "Ensure good drainage in wet seasons",
+        "Monitor for lodging in high nitrogen"
+      ],
+      "organicAlternatives": [
+        "Farmyard manure",
+        "Compost",
+        "Rock phosphate",
+        "Potash"
+      ]
+    },
+    {
+      "crop": "wheat",
+      "soilType": "sandy",
+      "nitrogen": 120,
+      "phosphorus": 80,
+      "potassium": 100,
+      "baseQuantity": 2.5,
+      "description": "Sandy soil requires more frequent fertilization for wheat production",
+      "applicationTips": [
+        "Split nitrogen applications",
+        "Use slow-release formulations",
+        "Add organic matter regularly"
+      ],
+      "organicAlternatives": [
+        "Green manures",
+        "Cover crops",
+        "Fish meal",
+        "Kelp"
+      ]
+    },
+    {
+      "crop": "wheat",
+      "soilType": "loamy",
+      "nitrogen": 90,
+      "phosphorus": 50,
+      "potassium": 70,
+      "baseQuantity": 1.8,
+      "description": "Loamy soil is excellent for wheat with moderate fertilizer needs",
+      "applicationTips": [
+        "Base application at planting",
+        "Top-dress at tillering",
+        "Balance nutrients for grain quality"
+      ],
+      "organicAlternatives": [
+        "Balanced compost",
+        "Alfalfa meal",
+        "Bone meal",
+        "Wood ash"
+      ]
+    },
+    {
+      "crop": "rice",
+      "soilType": "clay",
+      "nitrogen": 80,
+      "phosphorus": 40,
+      "potassium": 60,
+      "baseQuantity": 1.5,
+      "description": "Clay soil is traditional for rice cultivation with good water retention",
+      "applicationTips": [
+        "Apply nitrogen in split doses",
+        "Use slow-release formulations",
+        "Monitor water quality"
+      ],
+      "organicAlternatives": [
+        "Farmyard manure",
+        "Compost",
+        "Neem cake",
+        "Green manures"
+      ]
+    },
+    {
+      "crop": "rice",
+      "soilType": "sandy",
+      "nitrogen": 100,
+      "phosphorus": 60,
+      "potassium": 80,
+      "baseQuantity": 2.0,
+      "description": "Sandy soil for rice requires careful water and nutrient management",
+      "applicationTips": [
+        "Use controlled-release fertilizers",
+        "Apply more frequently",
+        "Maintain proper water levels"
+      ],
+      "organicAlternatives": [
+        "Vermicompost",
+        "Poultry manure",
+        "Seaweed extract",
+        "Biofertilizers"
+      ]
+    },
+    {
+      "crop": "corn",
+      "soilType": "clay",
+      "nitrogen": 160,
+      "phosphorus": 90,
+      "potassium": 120,
+      "baseQuantity": 3.2,
+      "description": "Clay soil supports corn growth but requires proper nutrient management",
+      "applicationTips": [
+        "Heavy nitrogen feeder",
+        "Side-dress during rapid growth",
+        "Prevent nitrogen leaching"
+      ],
+      "organicAlternatives": [
+        "Manure",
+        "Compost",
+        "Blood meal",
+        "Greensand"
+      ]
+    },
+    {
+      "crop": "corn",
+      "soilType": "sandy",
+      "nitrogen": 180,
+      "phosphorus": 110,
+      "potassium": 140,
+      "baseQuantity": 3.5,
+      "description": "Sandy soil requires intensive fertilization for high corn yields",
+      "applicationTips": [
+        "Frequent applications needed",
+        "Use slow-release nitrogen",
+        "Monitor for nutrient deficiencies"
+      ],
+      "organicAlternatives": [
+        "Fish emulsion",
+        "Seaweed",
+        "Cover crops",
+        "Compost tea"
+      ]
+    },
+    {
+      "crop": "potato",
+      "soilType": "clay",
+      "nitrogen": 130,
+      "phosphorus": 100,
+      "potassium": 160,
+      "baseQuantity": 2.8,
+      "description": "Clay soil provides good conditions for potato tuber development",
+      "applicationTips": [
+        "High potassium for tuber quality",
+        "Avoid excessive nitrogen",
+        "Apply at hilling time"
+      ],
+      "organicAlternatives": [
+        "Compost",
+        "Manure",
+        "Wood ash",
+        "Kelp meal"
+      ]
+    },
+    {
+      "crop": "potato",
+      "soilType": "sandy",
+      "nitrogen": 150,
+      "phosphorus": 120,
+      "potassium": 180,
+      "baseQuantity": 3.2,
+      "description": "Sandy soil requires careful irrigation and fertilization for potatoes",
+      "applicationTips": [
+        "Split potassium applications",
+        "Monitor for scab",
+        "Maintain consistent moisture"
+      ],
+      "organicAlternatives": [
+        "Fish bone meal",
+        "Kelp",
+        "Compost",
+        "Sul-Po-Mag"
+      ]
+    },
+    {
+      "crop": "cotton",
+      "soilType": "clay",
+      "nitrogen": 110,
+      "phosphorus": 70,
+      "potassium": 90,
+      "baseQuantity": 2.4,
+      "description": "Clay soil supports cotton with good nutrient retention properties",
+      "applicationTips": [
+        "Moderate nitrogen to prevent vegetative growth",
+        "Adequate potassium for fiber quality",
+        "Apply during square formation"
+      ],
+      "organicAlternatives": [
+        "Compost",
+        "Manure",
+        "Neem cake",
+        "Potash"
+      ]
+    },
+    {
+      "crop": "cotton",
+      "soilType": "sandy",
+      "nitrogen": 130,
+      "phosphorus": 90,
+      "potassium": 110,
+      "baseQuantity": 2.8,
+      "description": "Sandy soil for cotton requires regular fertilization and irrigation",
+      "applicationTips": [
+        "Controlled-release nitrogen",
+        "Monitor for nutrient leaching",
+        "Apply during key growth stages"
+      ],
+      "organicAlternatives": [
+        "Vermicompost",
+        "Poultry manure",
+        "Seaweed extract",
+        "Biofertilizers"
+      ]
+    }
+  ],
+  "nutrientInformation": {
+    "nitrogen": {
+      "role": "Promotes leaf growth and vegetative development",
+      "deficiencySymptoms": [
+        "Yellowing of older leaves",
+        "Stunted growth",
+        "Reduced yield"
+      ],
+      "sources": [
+        "Urea",
+        "Ammonium nitrate",
+        "Blood meal",
+        "Fish emulsion"
+      ]
+    },
+    "phosphorus": {
+      "role": "Essential for root development, flowering, and fruiting",
+      "deficiencySymptoms": [
+        "Purple discoloration of leaves",
+        "Poor root development",
+        "Delayed maturity"
+      ],
+      "sources": [
+        "Superphosphate",
+        "Bone meal",
+        "Rock phosphate",
+        "Compost"
+      ]
+    },
+    "potassium": {
+      "role": "Improves overall plant health, disease resistance, and fruit quality",
+      "deficiencySymptoms": [
+        "Yellowing leaf edges",
+        "Weak stems",
+        "Poor fruit development"
+      ],
+      "sources": [
+        "Potassium chloride",
+        "Wood ash",
+        "Greensand",
+        "Kelp meal"
+      ]
+    }
+  },
+  "applicationMethods": [
+    {
+      "method": "Broadcasting",
+      "description": "Spreading fertilizer evenly over the soil surface",
+      "bestFor": ["Large fields", "Before planting"],
+      "efficiency": "60-70%"
+    },
+    {
+      "method": "Banding",
+      "description": "Placing fertilizer in bands below and beside the seed row",
+      "bestFor": ["Row crops", "Phosphorus application"],
+      "efficiency": "80-90%"
+    },
+    {
+      "method": "Side-dressing",
+      "description": "Applying fertilizer alongside growing plants",
+      "bestFor": ["Nitrogen top-dressing", "Growing crops"],
+      "efficiency": "70-80%"
+    },
+    {
+      "method": "Fertigation",
+      "description": "Applying fertilizer through irrigation systems",
+      "bestFor": ["Drip irrigation", "Frequent applications"],
+      "efficiency": "85-95%"
+    },
+    {
+      "method": "Foliar spraying",
+      "description": "Spraying fertilizer solution directly on leaves",
+      "bestFor": ["Micronutrients", "Quick correction"],
+      "efficiency": "90-95%"
+    }
+  ],
+  "lastUpdated": "2024-01-01T00:00:00Z",
+  "version": "1.0"
+}

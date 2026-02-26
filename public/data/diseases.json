@@ -1,0 +1,306 @@
+{
+  "diseases": [
+    {
+      "name": "Tomato Blight",
+      "scientificName": "Phytophthora infestans",
+      "affectedCrops": ["tomato", "potato"],
+      "severity": "high",
+      "symptoms": [
+        "Dark spots on leaves with yellow halos",
+        "White fungal growth on undersides of leaves",
+        "Leaf curling and wilting",
+        "Dark lesions on stems",
+        "Fruit rot with foul odor"
+      ],
+      "treatment": [
+        "Remove and destroy infected plant material immediately",
+        "Apply copper-based fungicide preventatively",
+        "Improve air circulation around plants",
+        "Avoid overhead watering",
+        "Use resistant varieties when available",
+        "Apply fungicides containing chlorothalonil or mancozeb"
+      ],
+      "prevention": [
+        "Crop rotation every 2-3 years",
+        "Use disease-resistant varieties",
+        "Maintain proper plant spacing",
+        "Water at base of plants only",
+        "Ensure good drainage",
+        "Remove plant debris after harvest",
+        "Monitor weather conditions during high-risk periods"
+      ],
+      "environmentalConditions": {
+        "temperature": "60-80°F (15-27°C)",
+        "humidity": "High humidity (>90%)",
+        "moisture": "Free moisture on leaves for 10+ hours"
+      },
+      "impact": {
+        "yieldLoss": "50-100%",
+        "economicImpact": "High",
+        "spreadRate": "Rapid under favorable conditions"
+      }
+    },
+    {
+      "name": "Wheat Rust",
+      "scientificName": "Puccinia graminis",
+      "affectedCrops": ["wheat", "barley", "oats"],
+      "severity": "medium",
+      "symptoms": [
+        "Reddish-brown pustules on leaves and stems",
+        "Yellow streaks on foliage",
+        "Reduced plant growth and vigor",
+        "Premature leaf death",
+        "Poor grain development"
+      ],
+      "treatment": [
+        "Apply fungicides at first sign of infection",
+        "Use triazole or strobilurin fungicides",
+        "Remove infected plant material",
+        "Balance soil nutrients",
+        "Monitor weather conditions"
+      ],
+      "prevention": [
+        "Plant resistant varieties",
+        "Adjust planting timing to avoid high-risk periods",
+        "Practice field sanitation",
+        "Scout fields regularly",
+        "Use certified disease-free seed",
+        "Avoid excessive nitrogen fertilization"
+      ],
+      "environmentalConditions": {
+        "temperature": "60-80°F (15-27°C)",
+        "humidity": "Moderate to high humidity",
+        "moisture": "Dew or light rain"
+      },
+      "impact": {
+        "yieldLoss": "20-70%",
+        "economicImpact": "Moderate to High",
+        "spreadRate": "Moderate"
+      }
+    },
+    {
+      "name": "Powdery Mildew",
+      "scientificName": "Erysiphe spp.",
+      "affectedCrops": ["tomato", "wheat", "cotton", "potato", "corn"],
+      "severity": "low",
+      "symptoms": [
+        "White powdery coating on leaves, stems, and flowers",
+        "Leaf distortion and curling",
+        "Yellowing and premature leaf drop",
+        "Stunted growth",
+        "Reduced yield and quality"
+      ],
+      "treatment": [
+        "Apply neem oil or sulfur spray",
+        "Use fungicides containing myclobutanil or propiconazole",
+        "Improve air circulation",
+        "Reduce humidity around plants",
+        "Remove affected leaves"
+      ],
+      "prevention": [
+        "Ensure proper plant spacing",
+        "Water in morning only",
+        "Choose resistant varieties",
+        "Maintain good garden hygiene",
+        "Avoid excessive nitrogen fertilization",
+        "Prune to improve air flow"
+      ],
+      "environmentalConditions": {
+        "temperature": "68-85°F (20-29°C)",
+        "humidity": "High humidity",
+        "moisture": "Moderate, prefers dry conditions with high humidity"
+      },
+      "impact": {
+        "yieldLoss": "10-40%",
+        "economicImpact": "Low to Moderate",
+        "spreadRate": "Slow to Moderate"
+      }
+    },
+    {
+      "name": "Leaf Spot",
+      "scientificName": "Cercospora spp.",
+      "affectedCrops": ["tomato", "cotton", "potato", "wheat"],
+      "severity": "medium",
+      "symptoms": [
+        "Brown or black spots on leaves",
+        "Yellowing around spots (halos)",
+        "Leaf drop in severe cases",
+        "Reduced photosynthesis",
+        "Stunted plant growth"
+      ],
+      "treatment": [
+        "Remove infected leaves",
+        "Apply appropriate fungicide",
+        "Improve air circulation",
+        "Avoid overhead watering",
+        "Use disease-resistant varieties"
+      ],
+      "prevention": [
+        "Crop rotation",
+        "Use resistant varieties",
+        "Proper sanitation",
+        "Balanced fertilization",
+        "Avoid working with plants when wet",
+        "Ensure good drainage"
+      ],
+      "environmentalConditions": {
+        "temperature": "75-85°F (24-29°C)",
+        "humidity": "High humidity",
+        "moisture": "Prolonged leaf wetness"
+      },
+      "impact": {
+        "yieldLoss": "15-50%",
+        "economicImpact": "Moderate",
+        "spreadRate": "Moderate"
+      }
+    },
+    {
+      "name": "Cotton Boll Rot",
+      "scientificName": "Various fungi and bacteria",
+      "affectedCrops": ["cotton"],
+      "severity": "high",
+      "symptoms": [
+        "Rotting of cotton bolls",
+        "Discolored lint",
+        "Foul odor from infected bolls",
+        "Premature boll drop",
+        "Reduced fiber quality"
+      ],
+      "treatment": [
+        "Apply appropriate fungicides",
+        "Remove and destroy infected bolls",
+        "Improve air circulation",
+        "Avoid excessive irrigation",
+        "Use resistant varieties"
+      ],
+      "prevention": [
+        "Plant resistant varieties",
+        "Proper plant spacing",
+        "Avoid excessive nitrogen",
+        "Control insect damage",
+        "Harvest on time",
+        "Practice crop rotation"
+      ],
+      "environmentalConditions": {
+        "temperature": "70-90°F (21-32°C)",
+        "humidity": "High humidity",
+        "moisture": "High rainfall or irrigation"
+      },
+      "impact": {
+        "yieldLoss": "30-80%",
+        "economicImpact": "High",
+        "spreadRate": "Rapid in wet conditions"
+      }
+    },
+    {
+      "name": "Rice Blast",
+      "scientificName": "Magnaporthe oryzae",
+      "affectedCrops": ["rice"],
+      "severity": "high",
+      "symptoms": [
+        "Diamond-shaped lesions on leaves",
+        "Neck rot and rotting of panicles",
+        "White to gray centers with brown margins",
+        "Plant death in severe cases",
+        "Empty or partially filled grains"
+      ],
+      "treatment": [
+        "Apply fungicides containing tricyclazole or pyroquilon",
+        "Use resistant varieties",
+        "Proper water management",
+        "Balanced fertilization",
+        "Remove infected plant material"
+      ],
+      "prevention": [
+        "Plant resistant varieties",
+        "Proper water management",
+        "Avoid excessive nitrogen",
+        "Use certified disease-free seed",
+        "Field sanitation",
+        "Monitor weather conditions"
+      ],
+      "environmentalConditions": {
+        "temperature": "70-82°F (21-28°C)",
+        "humidity": "High humidity (>90%)",
+        "moisture": "Extended leaf wetness"
+      },
+      "impact": {
+        "yieldLoss": "20-100%",
+        "economicImpact": "Very High",
+        "spreadRate": "Rapid"
+      }
+    },
+    {
+      "name": "Corn Smut",
+      "scientificName": "Ustilago maydis",
+      "affectedCrops": ["corn"],
+      "severity": "low",
+      "symptoms": [
+        "Large galls on ears, tassels, and stalks",
+        "Galls initially silvery-white, turning black",
+        "Distorted plant growth",
+        "Reduced yield",
+        "Spore masses released when galls rupture"
+      ],
+      "treatment": [
+        "Remove and destroy infected plant parts",
+        "Apply fungicides preventatively",
+        "Crop rotation",
+        "Use resistant varieties"
+      ],
+      "prevention": [
+        "Use resistant hybrids",
+        "Crop rotation",
+        "Avoid mechanical damage to plants",
+        "Proper field sanitation",
+        "Balanced fertilization"
+      ],
+      "environmentalConditions": {
+        "temperature": "70-90°F (21-32°C)",
+        "humidity": "Moderate humidity",
+        "moisture": "Moderate moisture"
+      },
+      "impact": {
+        "yieldLoss": "5-20%",
+        "economicImpact": "Low",
+        "spreadRate": "Slow"
+      }
+    },
+    {
+      "name": "Potato Scab",
+      "scientificName": "Streptomyces scabies",
+      "affectedCrops": ["potato", "radish", "carrot"],
+      "severity": "low",
+      "symptoms": [
+        "Rough, scabby lesions on tuber surface",
+        "Corky-textured spots",
+        "Superficial damage to skin",
+        "Reduced marketability",
+        "Storage problems in severe cases"
+      ],
+      "treatment": [
+        "Use certified disease-free seed potatoes",
+        "Soil pH management",
+        "Crop rotation",
+        "Resistant varieties"
+      ],
+      "prevention": [
+        "Maintain soil pH below 5.5",
+        "Use resistant varieties",
+        "Crop rotation with non-susceptible crops",
+        "Avoid fresh manure before planting",
+        "Ensure good drainage"
+      ],
+      "environmentalConditions": {
+        "temperature": "60-75°F (15-24°C)",
+        "humidity": "Moderate humidity",
+        "soil": "Alkaline soils (pH > 5.5)"
+      },
+      "impact": {
+        "yieldLoss": "Minimal yield loss",
+        "economicImpact": "Low (quality issues)",
+        "spreadRate": "Slow"
+      }
+    }
+  ]
+}

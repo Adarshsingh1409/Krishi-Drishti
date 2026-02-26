@@ -1,0 +1,168 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  plantIdentifications PlantIdentification[]
+  diseaseDetections    DiseaseDetection[]
+  fertilizerCalculations FertilizerCalculation[]
+  weatherQueries       WeatherQuery[]
+  feedback             Feedback[]
+}
+
+model PlantIdentification {
+  id          String   @id @default(cuid())
+  userId      String?
+  plantName   String
+  scientificName String?
+  confidence  Float
+  imageUrl    String?
+  location    String?
+  isOffline   Boolean  @default(false)
+  modelVersion String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relations
+  user User? @relation(fields: [userId], references: [id])
+}
+
+model DiseaseDetection {
+  id          String   @id @default(cuid())
+  userId      String?
+  diseaseName String
+  confidence  Float
+  severity    String   // 'low', 'medium', 'high'
+  symptoms    String   // JSON array of symptoms
+  treatment   String   // JSON array of treatments
+  prevention  String   // JSON array of prevention methods
+  imageUrl    String?
+  location    String?
+  isOffline   Boolean  @default(false)
+  modelVersion String?
+  datasets    String?  // JSON array of datasets used
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relations
+  user User? @relation(fields: [userId], references: [id])
+}
+
+model FertilizerCalculation {
+  id          String   @id @default(cuid())
+  userId      String?
+  crop        String
+  soilType    String
+  area        Float    // in acres
+  npkRatio    String   // JSON object with N, P, K values
+  quantity    Float    // total fertilizer quantity in kg
+  schedule    String   // JSON array of application schedule
+  tips        String   // JSON array of tips
+  location    String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relations
+  user User? @relation(fields: [userId], references: [id])
+}
+
+model WeatherQuery {
+  id          String   @id @default(cuid())
+  userId      String?
+  location    String
+  temperature Float
+  humidity    Float
+  rainfall    Float
+  windSpeed   Float
+  description String
+  forecast    String   // JSON array of forecast data
+  isCached    Boolean  @default(false)
+  coordinates String?  // JSON object with lat/lon
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relations
+  user User? @relation(fields: [userId], references: [id])
+}
+
+model Feedback {
+  id          String   @id @default(cuid())
+  userId      String?
+  type        String   // 'bug', 'feature', 'general'
+  subject     String
+  message     String
+  rating      Int?     // 1-5 stars
+  email       String?
+  isResolved  Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relations
+  user User? @relation(fields: [userId], references: [id])
+}
+
+model CropData {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  scientificName String?
+  category    String   // 'vegetable', 'grain', 'fruit', 'fiber'
+  description String?
+  growingSeason String? // JSON array of seasons
+  plantingDepth String?
+  spacing     String?
+  daysToHarvest Int?
+  waterNeeds  String?
+  sunlightNeeds String?
+  temperatureRange String?
+  difficulty   String? // 'easy', 'medium', 'hard'
+  imageUrl    String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model DiseaseData {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  affectedCrops String // JSON array of affected crops
+  symptoms    String   // JSON array of symptoms
+  treatment   String   // JSON array of treatments
+  prevention  String   // JSON array of prevention methods
+  severity    String   // 'low', 'medium', 'high'
+  description String?
+  imageUrl    String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model FertilizerData {
+  id          String   @id @default(cuid())
+  crop        String
+  soilType    String
+  nitrogen    Float
+  phosphorus  Float
+  potassium   Float
+  baseQuantity Float   // base quantity per acre
+  description String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@unique([crop, soilType])
+}
