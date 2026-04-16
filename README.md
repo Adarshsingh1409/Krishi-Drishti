@@ -75,8 +75,6 @@ Bug Fixing** - Identify and resolve issues with intelligent suggestions
 Documentation** - Auto-generate comprehensive documentation
 Optimization** - Performance improvements and best practices
 
-Ready to build something amazing? Start chatting with Z.ai at [chat.z.ai](https://chat.z.ai) and experience the future of AI-powered development!
-
 📁 Project Structure
 
 src/
